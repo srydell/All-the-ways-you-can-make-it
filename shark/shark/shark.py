@@ -1,0 +1,1 @@
+print('\n'.join([f"{shark}, {'doo ' * 6}\n" * 3 for shark in ["Baby shark", "Mommy shark", "Daddy shark", "Grandma shark", "Grandpa shark", "Let's go hunt", "Run away", "Safe at last", "It's the end"]]))

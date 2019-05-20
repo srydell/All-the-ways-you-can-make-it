@@ -1,0 +1,8 @@
+{
+    "shark/*.py": {
+        "make": "python3 shark/{}.py"
+    },
+    "test/test_*.py": {
+        "make": "python3 -m unittest test.test_{}"
+    }
+}
