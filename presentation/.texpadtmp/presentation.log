@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.22)  20 MAY 2019 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.22)  21 MAY 2019 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1557,7 +1557,7 @@ usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /Users/SimonRydell/code/talks/how-to-make-it/presentation/.te
-xpadtmp/presentation.pdf (11 pages, 135267 bytes).
+xpadtmp/presentation.pdf (11 pages, 135768 bytes).
 PDF statistics:
  149 PDF objects out of 1000 (max. 8388607)
  116 compressed objects within 2 object streams
