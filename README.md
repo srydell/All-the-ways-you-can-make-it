@@ -64,7 +64,7 @@ We might have the meta data in `.projections.json` as
 }
 ```
 
-So that when whenever we are working on a unit test, the `makeprg` is set to run our test suite. This allows you to create very complex structures where everything is just the way you want it.
+So that whenever we are working on a unit test, the `makeprg` is set to run our test suite. This allows you to create very complex structures where everything is just the way you want it.
 
 There is of course not one correct way to run or build a program from vim, I use all of the ones described here. But by exploring multiple of them allows you to choose the best tool for your job and perhaps even forgetting the rest. Remember to [sharpen the saw](https://moolenaar.net/habits.html).
 
