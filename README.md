@@ -37,7 +37,7 @@ While `:make` is great it is still fully synchronous, meaning that your vim inst
 
 This is solved with [vim-dispatch](https://github.com/tpope/vim-dispatch) from the famous [tpope](https://github.com/tpope). It adds the `:Make` command which runs `makeprg` in a whole separate process, freeing your vim instance to do whatever.
 
-So now we can run whichever `python` script is in out current buffer. But what about when the file is a unit test, or perhaps always need some special parameters? tpope also built a plugin called [vim-projectionist](https://github.com/tpope/vim-projectionist) that allows us to have meta data about each project, where we can store a file specific `makeprg`. It is stored as `json` in the file `.projections.json` typically in your project root directory.
+So now we can run whichever `python` script is in out current buffer. But what about when the file is a unit test, or perhaps always need some special parameters? tpope also built a plugin called [vim-projectionist](https://github.com/tpope/vim-projectionist) that allows us to have meta data where we can store a file specific `makeprg`. The meta data is stored in the file `.projections.json` typically located in your project root directory.
 
 With a project structure as
 
