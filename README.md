@@ -14,11 +14,11 @@ There is nothing wrong with the terminal - so use it! From normal mode you can t
 
 so that whenever you press `<leader>r` (by default `<leader>` is `\`) vim will send `python3 current_file.py` to the underlying shell (assuming you have the file `current_file.py` in your open buffer).
 
-If you use `tmux`, you might like the [vimux plugin](https://github.com/benmills/vimux) that will allow you to send commands from one vim instance to a separate `tmux` pane. This avoid having to wait for the shell command to finish before continuing to edit your file. You also don't have to suspend your current vim instance and drop down to the shell.
+If you use `tmux`, you might like the [vimux plugin](https://github.com/benmills/vimux) that will allow you to send commands from one vim instance to a separate `tmux` pane. This avoids having to wait for the shell command to finish before continuing to edit your file. You also don't have to suspend your current vim instance and drop down to the shell.
 
 ### How to :make it ###
 
-`:make` is the native way of building and running programs from within vim. Whenever the command is invoked, the `makeprg` variable is checked and then ran as if it were a shell command. By default the `makeprg` is simply `make` (check it by typing `:echo &makeprg` from normal mode). Which is a bit C-centric, but we can of course change it. Keeping with our `python` example
+`:make` is a command specifically for building and running programs from within vim. Whenever the command is invoked, the `makeprg` variable is checked and then ran as if it were a shell command. By default the `makeprg` is simply `make` (check it by typing `:echo &makeprg` from normal mode). Which is a bit C-centric, but we can of course change it. Keeping with our `python` example
 
 ```vim
 :set makeprg=python3\ %
